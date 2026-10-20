@@ -1,0 +1,24 @@
+[project]
+name = "snap-class"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "bcrypt>=5.0.0",
+    "dlib-bin>=20.0.1",
+    "face-recognition-models",
+    "librosa>=1.0.0",
+    "numpy>=2.5.2",
+    "pandas>=3.0.5",
+    "pillow>=12.3.0",
+    "resemblyzer>=0.1.4",
+    "scikit-learn>=1.9.0",
+    "segno>=1.6.6",
+    "setuptools<70.0.0",
+    "streamlit>=1.61.1",
+    "supabase>=2.31.0",
+]
+
+[tool.uv.sources]
+face-recognition-models = { git = "https://github.com/ageitgey/face_recognition_models" }
